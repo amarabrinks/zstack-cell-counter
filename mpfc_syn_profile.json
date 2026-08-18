@@ -1,0 +1,25 @@
+{
+  "name": "mPFC SYN study",
+  "filename_regex": "(?P<subject>\\d+)_(?P<stain>syn)_(?P<batch>\\d+)_(?P<region>pl|il)_(?P<layer>2\\.3|5\\.6)_(?P<repetition>\\d+)",
+  "subject_field": "subject",
+  "expected_images": {
+    "pl": {
+      "2.3": 6,
+      "5.6": 6
+    },
+    "il": {
+      "2.3": 4,
+      "5.6": 4
+    }
+  },
+  "display_labels": {
+    "region": {
+      "pl": "PL",
+      "il": "IL"
+    },
+    "layer": {
+      "2.3": "II/III",
+      "5.6": "V/VI"
+    }
+  }
+}
