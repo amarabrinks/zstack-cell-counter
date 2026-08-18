@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Z-Stack Cell Counter outputs and research data
+cell_counter_output/
+**/cell_counter_output/
+*.ome.tif
+*.ome.tiff
+*.tif
+*.tiff
+activity_log.csv
+annotations.csv
+images.csv
+qc_flags.csv
+subject_summary.csv
+cell_counter_session.json
+cell_counter_autosave.csv
