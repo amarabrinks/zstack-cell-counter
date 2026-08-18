@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Z-Stack Cell Counter"
+abstract: "A napari-based application for manual cell counting, review tracking, quality control, and structured data export from microscopy Z-stacks."
+authors:
+  - family-names: "Brinks"
+    given-names: "Amara S."
+    affiliation: "Neuroscience Program, University of Illinois Urbana-Champaign"
+repository-code: "https://github.com/amarabrinks/zstack-cell-counter"
+url: "https://github.com/amarabrinks/zstack-cell-counter"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-17
+keywords:
+  - microscopy
+  - cell counting
+  - z-stack
+  - napari
+  - neuroscience
+  - image annotation
