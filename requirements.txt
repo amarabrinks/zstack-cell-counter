@@ -1,0 +1,5 @@
+napari[all]
+numpy
+tifffile
+qtpy
+aicsimageio
